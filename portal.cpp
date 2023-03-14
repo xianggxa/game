@@ -1,0 +1,44 @@
+#include "portal.h"
+#include "config.h"
+portal::portal()
+{
+    portal_picture[0].load(PORTAL1_PATH);
+    portal_picture[1].load(PORTAL2_PATH);
+    portal_picture[2].load(PORTAL3_PATH);
+    portal_picture[3].load(PORTAL4_PATH);
+    portal_picture[4].load(PORTAL5_PATH);
+    portal_picture[5].load(PORTAL6_PATH);
+    portal_picture[6].load(PORTAL7_PATH);
+    portal_picture[7].load(PORTAL8_PATH);
+    portal_picture[8].load(PORTAL9_PATH);
+    portal_picture[9].load(PORTAL10_PATH);
+    portal_picture[10].load(PORTAL11_PATH);
+    portal_picture[11].load(PORTAL12_PATH);
+    portal_picture[12].load(PORTAL13_PATH);
+    portal_picture[13].load(PORTAL14_PATH);
+    portal_picture[14].load(PORTAL15_PATH);
+    portal_picture[15].load(PORTAL16_PATH);
+    portal_picture[16].load(PORTAL17_PATH);
+    portal_picture[17].load(PORTAL18_PATH);
+    portal_picture[18].load(PORTAL19_PATH);
+    portal_picture[19].load(PORTAL20_PATH);
+    portal_picture[20].load(PORTAL21_PATH);
+    portal_picture[21].load(PORTAL22_PATH);
+    portal_picture[22].load(PORTAL23_PATH);
+    portal_picture[23].load(PORTAL24_PATH);
+    portal_picture[24].load(PORTAL25_PATH);
+    portal_picture[25].load(PORTAL26_PATH);
+    portal_picture[26].load(PORTAL27_PATH);
+    portal_picture[27].load(PORTAL28_PATH);
+    portal_picture[28].load(PORTAL29_PATH);
+    portal_picture[29].load(PORTAL30_PATH);
+    portal_picture[30].load(PORTAL31_PATH);
+    portal_picture[31].load(PORTAL32_PATH);
+    portal_picture[32].load(PORTAL33_PATH);
+    portal_picture[33].load(PORTAL34_PATH);
+    portal_picture[34].load(PORTAL35_PATH);
+    portal_picture[35].load(PORTAL36_PATH);
+    //
+    portal_num=36;
+    portal_now_p=0;
+}
